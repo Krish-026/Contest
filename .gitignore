@@ -1,22 +1,11 @@
-# Ignore all
-*
 
-# Unignore all with extensions
-!*.*
 
-# Unignore all dirs
-!*/
+# Ignore everything inside my subdir on any level below
+**/.cph/*
+
 
 ### Above combination will ignore all files without extension ###
 
 # Ignore files with extension `.class` & `.exe`
-*.class
+*.bin
 *.exe
-
-# Ignore `bin` dir
-bin/
-# or
-*/bin/*
-
-# Unignore all `.exe` in `bin` dir
-!*/bin/*.exe
