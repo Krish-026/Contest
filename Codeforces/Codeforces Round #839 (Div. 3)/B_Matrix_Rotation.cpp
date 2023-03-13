@@ -30,7 +30,6 @@ void rotate(int arr[2][2]){
     arr[0][1] = temp;
 }
 
-
 bool isBeautiful(int arr[2][2]){
     return arr[0][0] < arr[0][1] and arr[0][0] < arr[1][0] 
        and arr[1][1] > arr[0][1] and arr[1][1] > arr[1][0];
